@@ -1422,7 +1422,7 @@ h5 {
 }
 .section__header {
   text-align: center;
-  margin: 0 auto 70px auto;
+  margin: 0 auto 30px auto;
   display: flex;
   flex-direction: column;
 }
@@ -1444,6 +1444,21 @@ h5 {
   margin-left: 50px;
   font-family: 'Playfair Display';
   font-weight: normal;
+}
+.section__header h6 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 2rem;
+}
+.section__header p.para {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  width: 80%;
+}
+.section__header p.para:last-child {
+  padding-bottom: 0;
 }
 .gallery__header h5:before,
 .skills__header h5:before,
@@ -1525,12 +1540,12 @@ h5 {
   width: 100%;
   background-color: #000;
   z-index: 1000;
+  display: flex;
 }
 
 .main-navigation ul {
   display: flex;
   flex-direction: row;
-  width: 35%;
   margin: 16px auto;
   padding: 0;
 }
@@ -1637,6 +1652,7 @@ h5 {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transition: all 0.5s ease;
 }
 
 /* Modal Content */
@@ -1678,4 +1694,25 @@ h5 {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+.btn {
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 10px 30px;
+  color: #000;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+}
+.btn:hover {
+  background: gold;
+  border: 1px solid gold;
+  color: #000;
 }

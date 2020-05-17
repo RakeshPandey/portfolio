@@ -39,12 +39,11 @@
 				<img src="common/images/banner/image_1.jpg" alt="" />
 				<nav class="main-navigation">
 					<ul>
-						<li><a href="index.html">home</a></li>
-						<li><a href="#">about</a></li>
-						<li><a href="#">skills</a></li>
-						<li><a href="#">portfolio</a></li>
-						<li><a href="experience.html">experience</a></li>
-						<li><a href="#">contact</a></li>
+						<li><a id="topMenuAbout" href="#">about</a></li>
+						<li><a id="topMenuResearch" href="#">design &amp; research</a></li>
+						<li><a id="topMenuSkill" href="#">skills</a></li>
+						<li><a id="topMenuPortfolio" href="#">portfolio</a></li>
+						<li><a id="topMenuContact" href="#">contact</a></li>
 					</ul>
 				</nav>
 				<div class="menu" id="hamburger">
@@ -56,15 +55,15 @@
 				<ul class="menuInner">
 					<div class="innerMenuWrap">
 						<li><a id="menuAbout" href="#">about</a></li>
+						<li><a id="menuResearch" href="#">design &amp; research</a></li>
 						<li><a id="menuSkill" href="#">skills</a></li>
-						<li><a id="menuPortfolio" href="#">portfolio</a></li>
+						<li><a id="menuPortfolio" href="#">portfolio</a></li>						
+						<li class="innerMenuWrap__item--marginTop">View Portfolio Pieces Live:</li>
+						<li>AEM &amp; Frontend: <a href="#">Manulife Canada</a></li>
+						<li>Adobe Analytics &amp; DTM <a href="#">Boston Scientific</a></li>
+						<li>Demandware &amp; API  <a href="#">Beats by Dr. Dre</a></li>
 						<li><a id="menuContact" href="#">contact</a></li>
 						<li>or: rakesh.pandey10@gmail.com</li>
-						<li class="innerMenuWrap__item--marginTop">View Portfolio Pieces Live:</li>
-						<li>APIs &amp; Javascript: <a href="#">Netflix &amp; Spill</a></li>
-						<li>React: <a href="#">You Should Be Cleaning</a></li>
-						<li>APIs &amp; Javascript: <a href="#">What Should I Bring?</a></li>
-						<li>Responsive: <a href="#">PSD Conversion</a></li>
 					</div>
 				</ul>	
 				<div class="header__text">
@@ -136,6 +135,7 @@
 				<div class="profile__text">
 					<p>I am a "<strong>Digital Media All Rounder</strong>"  who loves conquering new challenges with a smile. I’m passionate about web development and have a unique mix of programming expertise and analytics skills. </p>
 					<p>I am looking to work for a company that focuses on solving interesting and engaging problems. My previous career was focused on large scale CMS Projects and team. This has given me a strong work ethic as well as an excellent understanding of working with diverse personalties under strict time lines.</p>
+					<p><a href="https://www.visualcv.com/pdfs/952853/" class="btn">Download resume to know more...</a></p>
 				</div> <!-- /.profile__text -->
 			</div> <!-- /.profileContain -->
 		</div> <!-- /.headerAndProfileWrap used to position .profileContain absolutely -->
@@ -144,7 +144,9 @@
 				<div class="skills__header section__header">
 					<h5>what i know</h5>
 					<h1>Design &amp; Research</h1>
-					
+					<h6>Case Study - Victoria University Chatbot for International Students</h6>
+					<p class="para"><strong>Use Case:</strong> In the course of this case study, we’ve been asked to redesign the Victoria University Chabot. Working in a group we involved in the process of implementing a solution based on our research, test, and design for VU. The vision is to help current students of Victoria University to be more informed and assist them towards the more professional vision. The Chabot is committed to provide assistance and help students with their personal and professional development.</p>
+					<p class="para"><strong>Challange:</strong> To create a fully realised App to enable international students to get all the information at one place and create an end-to-end experience that embodies and enhances the current experience.</p>
 				</div>
 			</div> <!-- /.wrapper -->
 		</section> <!-- /.skills -->
@@ -166,12 +168,12 @@
 			  <p>User Personas</p>
 			</div>
 			<div class="bg1 openModal">
-			  <h2><i class="fa fa-id-card-o"></i></h2>
-			  <p>User Cards</p>
-			</div>
+				<h2><i class="fa fa-bus"></i></h2>
+				<p>Customer Journey</p>
+			  </div>
 			<div class="bg1 openModal">
-			  <h2><i class="fa fa-bus"></i></h2>
-			  <p>Customer Journey</p>
+			  <h2><i class="fa fa-id-card-o"></i></h2>
+			  <p>Voice Tone &amp; Style Guide</p>
 			</div>
 		  </div> <!-- Experience About-->
 		<section class="skills" id="skills">
@@ -339,85 +341,83 @@
 							<img class="portfolioAccent" src="common/images/svg/greyDots.svg" alt="grey dots for decoration">
 						</div>
 						<div class="gallery__itemDescription gallery__item--imgSecond">
-							<h4>You Should Be Cleaning!</h4>
-							<p>An app that helps you keep your living space spec and span with helpful reminders and timers!</p>
+							<h4>Manulife</h4>
+							<p>Manulife is a leading international financial services group that helps people make their decisions easier and lives better. Manulife operate primarily as John Hancock in the United States and Manulife elsewhere. Manulife provide financial advice, insurance, as well as wealth and asset management solutions for individuals, groups and institutions.</p>
+							<p><strong>Technology Stack</strong></p>
 							<ul class="itemDescription__list itemDescription__list--imgSecond">
-								<li>React</li>
-								<li>Firebase</li>
+								<li>AEM</li>
+								<li>Bootstrap</li>
 								<li>JavaScript</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>Sass</li>
+								<li>BEM</li>
+								<li>RWD</li>
+								<li>Accessibility</li>
+								<li>Google Analytics</li>
+								<li>GTM</li>
+								<li>Adobe Target</li>
+								<li>Atomic Design Pattern</li>
 							</ul>
-							<a href="http://cleanit.talialongname.com/" target="_blank" class="viewLive--right">View Live</a>
-							<a class="pinkOutline" href="https://github.com/taliahm/projectsix" target="_blank">Github</a>
+							<a href="https://www.manulife.ca/personal.html" target="_blank" class="viewLive--right">View Live</a>
+							<!-- <a class="pinkOutline" href="https://github.com/taliahm/projectsix" target="_blank">Github</a> -->
 						</div>
-						<div class="imgContain" id="cleanIt">
-							<img src="common/images/cleanitBig.jpg" alt="screenshot from Portfolio Piece entitled You Should Be Cleaning">
+						<div class="imgContain" id="manulife">
+							<img src="common/images/projects/manulife.png" height="210" alt="screenshot from Portfolio Piece entitled You Should Be Cleaning">
 						</div>
 					</div> <!-- /.gallery__item -->
 					<div class="gallery__item">
-						<div class="imgContain" id="spill">
-							<img src="common/images/spillBig.jpg" alt="screenshot from Portfolio Piece entitled Netflix and Spill">
+						<div class="imgContain" id="boston">
+							<img src="common/images/projects/boston-scientific.png" height="210" alt="screenshot from Portfolio Piece entitled Boston Scientific">
 						</div>
 						<div class="gallery__itemDescription gallery__item--imgFirst">
-							<h4>Netflix &amp; Spill</h4>
-							<p>Have something to drink but nothing to watch? Or have nothing to watch but something to drink? This app can solve both those problems using the LCBO and Movie DB APIs.</p>
+							<h4>Boston Scientific</h4>
+							<p>Boston Scientific, is a manufacturer of medical devices used in interventional medical specialties, including interventional radiology, interventional cardiology, peripheral interventions, neuromodulation, neurovascular intervention, electrophysiology, cardiac surgery, vascular surgery, endoscopy, oncology, urology and gynecology.</p>
+							<p><strong>Technology Stack</strong></p>
 							<ul class="itemDescription__list">
+								<li>Adobe Analytics</li>
+								<li>DTM</li>
+								<li>AEM</li>
+								<li>Bootstrap</li>
 								<li>APIs</li>
-								<li>JavaScript</li>
+								<li>ES6</li>
 								<li>jQuery</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>Sass</li>
+								<li>RWD</li>
+								<li>Accessibility</li>
+								<li>Headless CMS</li>
 							</ul>
-							<a href="http://talialongname.com/spill" target="_blank" class="viewLive--right">View Live</a>
-							<a class="pinkOutline" href="https://github.com/taliahm/hackerYouProjectFour" target="_blank">Github</a>
+							<a href="https://www.bostonscientific.com/en-US/Home.html" target="_blank" class="viewLive--right">View Live</a>
 						</div>
 					</div> <!-- /.gallery__item -->
 					<div class="gallery__item greyDots--relative">
 						<div class="gallery__itemDescription gallery__item--imgSecond">
 							<h4>What Should I Bring?</h4>
-							<p>Need a hostess gift for your next potluck? We've got you covered with selections from the LCBO API. We will even let you know where your nearest LCBO store is located! Project built in conjunction with Jessica Del Grande and Alex Ghattas.</p>
+							<p>Beats by Dr. Dre (Beats) is a leading audio brand founded in 2006 by Dr. Dre and Jimmy Iovine. Through its family of premium consumer headphones, earphones and speakers, Beats has introduced an entirely new generation to the possibilities of premium sound entertainment. The brand’s continued success helps bring the energy, emotion and excitement of playback in the recording studio back to the listening experience for music lovers worldwide. Beats was acquired by Apple Inc. in July 2014.</p>
+							<p><strong>Technology Stack</strong></p>
 							<ul class="itemDescription__list itemDescription__list--imgSecond">
+								<li>Demandware</li>
 								<li>APIs</li>
 								<li>JavaScript</li>
-								<li>ES6</li>
-								<li>Git</li>
-								<li>Gulp</li>
 								<li>jQuery</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>Sass</li>
+								<li>RWD</li>
+								<li>Google Analytics</li>
+								<li>GTM</li>
 							</ul>
-							<a href="https://giftme.talialongname.com/" target="_blank" class="viewLive--right">View Live</a>
-							<a class="pinkOutline" href="https://github.com/taliahm/ProjectFive" target="_blank">Github</a>
+							<a href="https://www.beatsbydre.com/au" target="_blank" class="viewLive--right">View Live</a>
 						</div>
-						<div class="imgContain" id="gift">
-							<img src="common/images/gift.jpg" alt="screen shot from Portfolio Piece entitled What Should I Bring">
+						<div class="imgContain" id="beats">
+							<img src="common/images/projects/beatsbydre.png" height="210" alt="screen shot from Portfolio Piece entitled beatsbydre">
 						</div>
 						<div class="decoContain greyDotsLeft">
 							<img class="portfolioAccent" src="common/images/svg/greyDots.svg" alt="grey dots for decoration">
 						</div>
 					</div> <!-- /.gallery__item -->
-					<div class="gallery__item">
-						<div class="imgContain" id="charity">
-							<img src="common/images/charity.jpg" alt="Portfolio Piece">
-						</div>
-						<div class="gallery__itemDescription gallery__item--imgFirst">
-							<h4>PSD Conversion</h4>
-							<p>Created a one page fully responsive site from a pre-conceived design.<a class="pdfLink" href="http://talialongname.com/assets/preview.jpg" target="_blank">View Design</a></p>
-							<ul class="itemDescription__list">
-								<li>Responsive Design</li>
-								<li>HTML5</li>
-								<li>CSS3</li>
-								<li>Sass</li>
-								<li>jQuery</li>
-							</ul>
-							<a href="http://talialongname.com/psdConversion" target="_blank" class="viewLive--right">View Live</a>
-							<a class="pinkOutline" href="https://github.com/taliahm/hackerYouProjectTwo" target="_blank">Github</a>
-						</div>
-					</div>
 				</div> <!-- /.gallery__item -->
 				<div class="contactImgContain blueTriangle">
 					<!--?xml version="1.0" encoding="utf-8"?-->
@@ -461,14 +461,12 @@
 				<div class="contact__text">
 					<h4>rakesh.pandey10@gmail.com</h4>
 					<ul class="social">
-						<li><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/RakeshPandey" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/rakesh-pandey-bb593a19/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 					</ul>
 					<p>or</p>
 				</div>
-				<form action="http://www.focuspocus.io/magic/882cd622706739436389dd4d8a54719d" method="POST">
+				<form action="#" method="POST">
 					<ul class="formList">
 						<li>
 							<label for="name">Name</label>
