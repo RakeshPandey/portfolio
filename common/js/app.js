@@ -182,7 +182,8 @@ let modalData = [
 		subtitle: "sdfldsjf",
 		desc: "sdfslkj",
 		img: "common/images/design_thinking.jpg",
-		href: "www.google.com"
+		href: "common/images/documents/Chatbot_Proposal_Document.pdf",
+		label: "Download Chatbot Proposal"
 	},
 	{
 		title: "User Research",
@@ -190,7 +191,8 @@ let modalData = [
 		subtitle: "Market Research",
 		desc: "According to research, each year more than 200,000 international students from over 170 countries choose to come to Victoria to study. In 2018, Victoria university had more than 40,000 enrolled students and 12,600 of them are international students who come from more than 100 countries. In addition, the number of international students entering Australia has increased by 800,000 from 1994 to 2019. The rising number of international students not only shows Australian institutions have been successful in recruiting and retaining international students, but also provides them with a big challenge about how to meet a growing need for international students’ guidance and assistance. We started taking a series of interview with our users and gathered information about their use of VU Chatbo as well as how frequent they use the chatbot for queries.",
 		img: "",
-		href: "www.google.com"
+		href: "www.google.com",
+		label: "Download Chatbot Proposal"
 	},
 	{
 		title: "Usability Testing",
@@ -211,7 +213,8 @@ let modalData = [
 		subtitle: "sdfdsfsg",
 		desc: "sdfds",
 		img: "",
-		href: "www.google.com"
+		href: "www.google.com",
+		label: "Download Chatbot Proposal"
 	},
 	{
 		title: "User Persona",
@@ -219,7 +222,8 @@ let modalData = [
 		subtitle: "",
 		desc: "Jaques is a former actor from France who wants to transition his career into Digital Media. He wanted to focus on Digital Marketing for his plans for entrepreneurship. He wants to get acquainted with the university and its services. And for someone who recently moved to Australia, he wants to gain more connections. He is also in need of assistance regarding time and stress management.",
 		img: "",
-		href: "www.google.com"
+		href: "www.google.com",
+		label: "Download Chatbot Proposal"
 	},
 	{
 		title: "Customer Journey",
@@ -230,7 +234,8 @@ let modalData = [
 		subtitle: "sldskfjsdl",
 		desc: "sdfdsgsd",
 		img: "common/images/design_thinking.jpg",
-		href: "www.google.com"
+		href: "www.google.com",
+		label: "Download Chatbot Proposal"
 	},
 	{
 		title: "Voice Tone &amp; Style Guide",
@@ -238,7 +243,8 @@ let modalData = [
 		subtitle: "sdfksdlssdgdsf",
 		desc: "sdfdsge",
 		img: "common/images/design_thinking.jpg",
-		href: "www.google.com"
+		href: "www.google.com",
+		label: "Download Chatbot Proposal"
 	}
 ];
 
@@ -265,10 +271,10 @@ const initializeModal = () => {
 					return `			
 					<h2>${data.title}</h2>
 					<p>${data.description}</p>
+					<p><a href="${data.href}" title="test" target="_blank">${data.label}</a></p>
 					<p><img src='${data.img}' width="100%" alt="${data.title}" /></p>
 					<h4>${data.subtitle}</h4>
-					<p>${data.desc}</p>
-					<p><a href="${data.href}" title="test" /></p>`
+					<p>${data.desc}</p>`
 			}).join("")}
 			</div>	
 			`;
