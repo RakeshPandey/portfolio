@@ -374,11 +374,11 @@ header > img {
   letter-spacing: 1.4px;
 }
 .header__text p {
-  color: #fff;
+  color: gold;
   font-size: 12px;
 }
 .header__text p > a {
-  color: blue;
+  color: gold;
 }
 .header__text p > a:hover {
   text-decoration: none;
@@ -1541,6 +1541,11 @@ h5 {
   background-color: #000;
   z-index: 1000;
   display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .main-navigation {
+    display: none;
+  }
 }
 
 .main-navigation ul {
