@@ -226,8 +226,8 @@ let modalData = [
 	{
 		title: "Customer Journey",
 		content: `
-			A customer journey map is a visual representation of the experience that our students have with the chatbot. It helps to tell the story of a customer's experience with your brand from original engagement and into hopefully a long-term relationship.
-			<p>To investigate the need further, interviews are conducted to determine the most common pain points for an international student whose name is Jaques Crow and there are several aspects of pain points for him. The first one is to get acquainted with a new environment and a new culture. He might be confronted with issues of cultural shock. The second is to find the right place for accommodation with an acceptable budget. And then it is not easy to understand the enrollment process and contents for units as well as keep up with schedules and deadlines. The fourth aspect is that he lacks resources to seek support and gain information about all kinds of activities. Making new connections with others and finding opportunities in a competitive world is the last aspect of pain points for him.</p>
+			The effective combination of voice and tone of a brand makes the product in the market easier to use. The voice brings more consistency in your writing style whereas tone makes your design more humane.
+			<p>Our Crowfessor chatbot brand personality is smart, reliable, and friendly whereas its tone is friendly, helpful, and knowledgeable. The reason for our voice is friendly because we radiate a feeling of warmth and make students comfortable as we speak with students in a friendly yet professional manner. Our voice is helpful because we want to make students feel that we are ready to listen, assist and guide them as we want to make students feel that we are ready to listen, assist and guide them. Our voice is knowledgeable because we will provide you the right answers to your queries and give you expert advice through meaningful data from reliable sources and provide useful tips and information.</p>
 		`
 	}
 ];
