@@ -254,7 +254,7 @@ const initializeModal = () => {
 				if (index === i)
 					return `			
 					<h2>${data.title}</h2>
-					<p>${data.content}</p>
+					<p>${data.content}</p>`
 			}).join("")}
 			</div>	
 			`;
