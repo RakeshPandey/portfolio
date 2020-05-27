@@ -213,7 +213,7 @@ let modalData = [
 		content: `Using our research data and interviews we combined our findings to create a persona that would be typical users of an international student.
 			<p>Jaques is a former actor from France who wants to transition his career into Digital Media. He wanted to focus on Digital Marketing for his plans for entrepreneurship. He wants to get acquainted with the university and its services. And for someone who recently moved to Australia, he wants to gain more connections. He is also in need of assistance regarding time and stress management.</p>
 			<p><a href="common/images/documents/VU_Persona.pdf" target="_blank" title="Download User Persona">Download VU User Persona</a></p>
-			<div><img src="common/images/documents/persona_image.png" alt="VU Persona" width="100%" /></div>
+			<div><img src="common/images/documents/persona_image.PNG" alt="VU Persona" width="100%" /></div>
 		`
 	},
 	{
