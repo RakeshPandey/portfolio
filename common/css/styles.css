@@ -1620,8 +1620,8 @@ h5 {
   grid-column: 3 / 5;
 }
 
-.container > div:nth-of-type(9) {
-  grid-column: 3 / 5;
+.container > div:nth-of-type(7) {
+  grid-column: 4 / 1;
 }
 
 .container > div:nth-of-type(10) {
@@ -1664,7 +1664,7 @@ h5 {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 20px 20px 40px;
   border: 1px solid #888;
   width: 80%;
 }

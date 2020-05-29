@@ -181,6 +181,7 @@ let modalData = [
 		content: `We have followed the design thinking process to develop the idea to create a chatbot for VU international students. The process help us to develop an understanding of the international students for whom we were designing the product. This helps us to create empathy towards the international students studying at Victoria University and the advantage of brainstorming session is to define the students needs, problems and gather more insights. The next step in design thinking process is to create ideas for smart and intelligent chatbot and starts the hands on approach in prototyping and testing.
 			<p><a href="common/images/documents/Chatbot_Proposal_Document.pdf" target="_blank" title="Download Chatbot Proposal">Download Chatbot Proposal</a></p>
 			<div><img src="common/images/design_thinking.jpg" alt="Design Thinking - develop an idea" width="100%" /></div>
+			<br/><br/><br/><br/>
 		`
 	},
 	{
@@ -189,6 +190,7 @@ let modalData = [
 			<h3>Market Research</h3>
 			<p>According to research, each year more than 200,000 international students from over 170 countries choose to come to Victoria to study. In 2018, Victoria university had more than 40,000 enrolled students and 12,600 of them are international students who come from more than 100 countries. In addition, the number of international students entering Australia has increased by 800,000 from 1994 to 2019. The rising number of international students not only shows Australian institutions have been successful in recruiting and retaining international students, but also provides them with a big challenge about how to meet a growing need for international students’ guidance and assistance. We started taking a series of interview with our users and gathered information about their use of VU Chatbo as well as how frequent they use the chatbot for queries.</p>
 			<p><a href="https://internationaleducation.gov.au/research/International-Student-Data/Pages/InternationalStudentData2019.aspx" target="_blank" title="Download International Student Data 2019">Download International Student Data 2019</a></p>
+			<br/><br/><br/><br/>
 		`
 	},
 	{
@@ -205,7 +207,48 @@ let modalData = [
 				<li>Not enough resources to gain info about activities, events, meet-ups, and clubs</li>
 				<li>Making new connections and network</li>
 				<li>Finding opportunities in a competitive world</li>
+			</ul><br/><br/><br/><br/>
+		`
+	},
+	{
+		title: "User Story",
+		content: `<p>User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system. They typically follow a simple template:</p>
+			<p><strong>As a < user >, I want < some goal > so that < some reason >.</strong></p>
+			<p>User stories are often written on index cards or sticky notes, stored in a shoe box, and arranged on walls or tables to facilitate planning and discussion. As such, they strongly shift the focus from writing about features to discussing them. In fact, these discussions are more important than whatever text is written.</p>
+			<div><img src="common/images/documents/user-story-map.PNG" alt="User Story" width="100%" /></div><br/><br/><br/><br/>
+		`
+	},
+	{
+		title: "User Journey Map",
+		content: `<p>A User Journey map is a visual representation of the customer journey to identify the path taken by a user to achieve specific goals. It is the most important UX tool to analyze how a user interacts with a product and allows the research team to understand the user journey from the user’s point of view.</p>
+			<p>Key components of a Journey Map:</p>
+			<ul>
+				<li>Create a user persona</li>
+				<li>Define scenario and user expectations</li>
+				<li>Sketch the journey</li>
+				<li>Actions, Mindsets, and Emotions</li>
+				<li>Opportunities</li>
 			</ul>
+			<p><a href="common/images/documents/Journey_Map.xlsx" target="_blank" title="Download the User Journey Map">Download the user journey map</a></p>
+		`
+	},
+	{
+		title: "User Testing",
+		content: `<p>User testing is the process to evaluate the web or mobile application and to figure out whether the website is ready to launch for the end-users.  It is the process to identify the performance of the website, application, product, or service by the end-user by asking to perform specific tasks. Users are not directed or controlled by anyone at the time of testing or interview so that the research team gets the relevant feedback from the user without any biased. This also helps to understand how intuitive and comfortable is the product for the end-users.</p>
+			<p>There are many different types of research methods a research team can use:</p>
+			<ul>
+				<li>Interviews</li>
+				<li>Usability Testing</li>
+				<li>Surveys</li>
+				<li>A/B Testing</li>
+				<li>Focus Group</li>
+			</ul>
+			<p>We have conducted interviews with Victoria University's current postgraduate students to understand the challenges faced by international students and their expectations with an existing online learning system called VU Collaborate. The objective of the usability testing report is to build an outstanding experience that demands the composition of user needs and frustration. The study aims to analyze the gap between the existing online VU collaborate portal and the requirement of the current international students. The result of the study shows that further areas of research and input from students help to design a better online system</p>
+			<p><a href="common/images/documents/Usability_Testing_Report.pdf" target="_blank" title="Download VU Collaborate Usability Testing Report">Download VU Collaborate User Testing Report</a></p>
+			<p><a href="common/images/documents/usability_testing_questions.docx" target="_blank" title="Download Interview Questions">Download Interview Questions</a></p>
+			<p><a href="common/images/documents/Interview_with_Setareh_Rasouli.mp3" target="_blank" title="Download Interview with Setareh Rasouli">Download Interview with Setareh Rasouli</a></p>
+			<p><a href="common/images/documents/Interview_with_Tanay_akgul.mp3" target="_blank" title="Download Interview with Tanay Akgul">Download Interview with Tanay Akgul</a></p>
+			<br/><br/><br/><br/>
 		`
 	},
 	{
@@ -214,6 +257,7 @@ let modalData = [
 			<p>Jaques is a former actor from France who wants to transition his career into Digital Media. He wanted to focus on Digital Marketing for his plans for entrepreneurship. He wants to get acquainted with the university and its services. And for someone who recently moved to Australia, he wants to gain more connections. He is also in need of assistance regarding time and stress management.</p>
 			<p><a href="common/images/documents/VU_Persona.pdf" target="_blank" title="Download User Persona">Download VU User Persona</a></p>
 			<div><img src="common/images/documents/persona_image.PNG" alt="VU Persona" width="100%" /></div>
+			<br/><br/><br/><br/>
 		`
 	},
 	{
@@ -223,6 +267,7 @@ let modalData = [
 			<p>To investigate the need further, interviews are conducted to determine the most common pain points for an international student whose name is Jaques Crow and there are several aspects of pain points for him. The first one is to get acquainted with a new environment and a new culture. He might be confronted with issues of cultural shock. The second is to find the right place for accommodation with an acceptable budget. And then it is not easy to understand the enrollment process and contents for units as well as keep up with schedules and deadlines. The fourth aspect is that he lacks resources to seek support and gain information about all kinds of activities. Making new connections with others and finding opportunities in a competitive world is the last aspect of pain points for him.</p>
 			<p><a href="common/images/documents/customer_journey.jpeg" target="_blank" title="Download Customer Journey">Download Customer Journey</a></p>
 			<div><img src="common/images/documents/customer_journey.jpeg" alt="Customer Journey" width="100%" /></div>
+			<br/><br/><br/><br/>
 		`
 	},
 	{
@@ -231,6 +276,7 @@ let modalData = [
 			The effective combination of voice and tone of a brand makes the product in the market easier to use. The voice brings more consistency in your writing style whereas tone makes your design more humane.
 			<p>Our Crowfessor chatbot brand personality is smart, reliable, and friendly whereas its tone is friendly, helpful, and knowledgeable. The reason for our voice is friendly because we radiate a feeling of warmth and make students comfortable as we speak with students in a friendly yet professional manner. Our voice is helpful because we want to make students feel that we are ready to listen, assist and guide them as we want to make students feel that we are ready to listen, assist and guide them. Our voice is knowledgeable because we will provide you the right answers to your queries and give you expert advice through meaningful data from reliable sources and provide useful tips and information.</p>
 			<p><a href="common/images/documents/tone-style-guide.pdf" target="_blank" title="Tone and Style Guide">Download Tone and Style Guide</a></p>
+			<br/><br/><br/><br/>
 		`
 	}
 ];
