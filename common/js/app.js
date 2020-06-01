@@ -213,7 +213,7 @@ let modalData = [
 		title: "User Persona",
 		content: `Using our research data and interviews we combined our findings to create a persona that would be typical users of an international student.
 			<p>Jaques is a former actor from France who wants to transition his career into Digital Media. He wanted to focus on Digital Marketing for his plans for entrepreneurship. He wants to get acquainted with the university and its services. And for someone who recently moved to Australia, he wants to gain more connections. He is also in need of assistance regarding time and stress management.</p>
-			<div><img src="common/images/documents/User_Persona_01.PNG" alt="User Persona" width="100%" /></div>
+			<div><img src="common/images/documents/User_Persona_01.png" alt="User Persona" width="100%" /></div>
 			<p>Xtensio, a web application can be used to make User Personas. You can also create one using Figma. 
 				<a href="https://vuchatbox.xtensio.com/4ro7rxr4" target="_blank" title="User Persona">View file Here.</a>
 			</p>
@@ -266,9 +266,9 @@ let modalData = [
 		title: "User Story",
 		content: `<p>User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system. They typically follow a simple template:</p>
 			<p><strong>As a < user >, I want < some goal > so that < some reason >.</strong></p>
-			<div><img src="common/images/documents/user_Story.png" alt="User Story" width="100%" /></div>
+			<div><img src="common/images/documents/user_story.png" alt="User Story" width="100%" /></div>
 			<p>User stories are often written on index cards or sticky notes, stored in a shoe box, and arranged on walls or tables to facilitate planning and discussion. As such, they strongly shift the focus from writing about features to discussing them. In fact, these discussions are more important than whatever text is written.</p>
-			<div><img src="common/images/documents/user-story-map.PNG" alt="User Story" width="100%" /></div>
+			<div><img src="common/images/documents/user-story-map.png" alt="User Story" width="100%" /></div>
 		`
 	}
 	// {
